@@ -9,13 +9,13 @@ const config: DocsThemeConfig = {
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img
           src={resolvedTheme === 'dark' ? '/logo_w.svg' : '/logo.svg'}
-          alt="Neur"
+          alt="Ants AI"
           width={24}
           height={24}
           style={{ borderRadius: '4px' }}
         />
         <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-          Neur
+          Ants AI
         </span>
       </div>
     )
@@ -35,7 +35,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={title ? title + ' – Neur' : 'Neur'} />
+        <meta property="og:title" content={title ? title + ' – Neur' : 'Ants AI'} />
         <meta property="og:description" content="The Intelligent Copilot for Solana" />
       </>
     )

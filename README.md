@@ -1,3 +1,3 @@
 # Docs
 
-Documentation for Neur App.
+Documentation for AntsAI App.
