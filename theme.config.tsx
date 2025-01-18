@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
       </div>
     )
   },
-  faviconGlyph: '📚',
+  faviconGlyph: '🐜',
   project: {
     link: 'https://github.com/ants-agent'
   },
