@@ -1,7 +1,11 @@
 {
   "index": "Introduction",
-  "mission-vision": "Mission & Vision",
-  "tokenomics": "Tokenomics",
-  "eap": "Early Access Program",
-  "links": "Links"
+  "system-design": "System Design",
+  "user-cases": "User Cases",
+  "agent-markets": "Agent Markets",
+  "foundamental-research": "Foundamental Research",
+  "roadmap": "Roadmap",
+  "who-are-we": "Who Are We?",
+  "official-links": "Official Links"
+  
 }

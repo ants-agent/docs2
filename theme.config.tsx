@@ -27,7 +27,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/ants-agent/docs',
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Neur'
+      titleTemplate: '%s – AntsAI'
     }
   },
   head: () => {
@@ -35,7 +35,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={title ? title + ' – Neur' : 'Ants AI'} />
+        <meta property="og:title" content={title ? title + ' – AntsAI' : 'Ants AI'} />
         <meta property="og:description" content="The Intelligent Copilot for Solana" />
       </>
     )
