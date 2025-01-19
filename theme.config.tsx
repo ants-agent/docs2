@@ -1,6 +1,9 @@
 import { useConfig } from 'nextra-theme-docs'
 import { useTheme } from 'next-themes'
 import { type DocsThemeConfig } from 'nextra-theme-docs'
+import GoogleAnalytics from './google-analytics'
+
+
 
 const config: DocsThemeConfig = {
   logo: function LogoComponent() {
@@ -36,16 +39,21 @@ const config: DocsThemeConfig = {
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title ? title + ' – AntsAI' : 'Ants AI'} />
-        <meta property="og:description" content="The Intelligent Copilot for Solana" />
+        <meta property="og:description" content="Bridge the gap between individual agents and collective intelligence" />
       </>
     )
   },
   primaryHue: 210,
   footer: {
     text: (
+      <>
       <span>
         {new Date().getFullYear()} © <a href="https://antsai.io" target="_blank">Ants AI</a>
       </span>
+      <GoogleAnalytics />
+      </>
+      
+      
     )
   },
   darkMode: true,
