@@ -4,6 +4,8 @@ const withNextra = require('nextra')({
   defaultShowCopyCode: true
 })
 
+
+
 module.exports = withNextra({
   reactStrictMode: true,
   images: {
