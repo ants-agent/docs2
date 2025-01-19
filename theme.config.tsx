@@ -17,9 +17,11 @@ const config: DocsThemeConfig = {
           height={24}
           style={{ borderRadius: '4px' }}
         />
+
         <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-          Ants AI
+        Ants AI
         </span>
+       
       </div>
     )
   },
@@ -48,7 +50,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
       <span>
-        {new Date().getFullYear()} © <a href="https://antsai.io" target="_blank">Ants AI</a>
+        {new Date().getFullYear()} © <a href="https://antsai.io" target="_blank">Ants AI 🐜</a>
       </span>
       <GoogleAnalytics />
       </>
